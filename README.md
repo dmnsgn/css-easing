@@ -17,6 +17,11 @@ $ npm install css-easing --save
 }
 ```
 
+## Compatibility
+
+See [http://caniuse.com/#feat=css-variables](http://caniuse.com/#feat=css-variables)
+and [https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)
+
 ## License
 
 MIT

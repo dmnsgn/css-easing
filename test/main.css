@@ -1,0 +1,27 @@
+@import "../_easings.css";
+
+:root {
+	--background-color: #1f1f1f;
+	--link-color: #eee;
+	--sub-size: 10px;
+}
+
+body {
+	background-color: var(--background-color);
+}
+sub {
+	font-size: var(--sub-size);
+}
+a {
+	color: var(--link-color);
+}
+
+h1 {
+	color: chocolate;
+	transition: all .5s var(--easeInSine);
+}
+
+h1:hover {
+	color: lemonchiffon;
+	transition: all .5s var(--easeOutSine);
+}
