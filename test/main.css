@@ -1,11 +1,14 @@
+/* Import easings variables */
 @import "../_easings.css";
 
+/* Declare other variables on the root pseudo-class  */
 :root {
 	--background-color: #1f1f1f;
 	--link-color: #eee;
 	--sub-size: 10px;
 }
 
+/* Test variables on the root pseudo-class  */
 body {
 	background-color: var(--background-color);
 }
@@ -16,11 +19,11 @@ a {
 	color: var(--link-color);
 }
 
+/* Test easing variables  */
 h1 {
 	color: chocolate;
 	transition: all .5s var(--easeInSine);
 }
-
 h1:hover {
 	color: lemonchiffon;
 	transition: all .5s var(--easeOutSine);
