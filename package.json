@@ -1,6 +1,6 @@
 {
   "name": "css-easing",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Easing variables for css",
   "repository": {
     "type": "git",
@@ -11,7 +11,10 @@
     "easing",
     "variables"
   ],
-  "author": "Damien Seguin <dmnsgn@gmail.com> (http://dmnsgn.co.uk/)",
+  "author": {
+    "name": "Damien Seguin",
+    "url": "http://dmnsgn.me"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dmnsgn/css-easing/issues"
