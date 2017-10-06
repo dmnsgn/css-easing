@@ -1,5 +1,5 @@
 /* Import easings variables */
-@import "../_easings.css";
+@import "../index.css";
 
 /* Declare other variables on the root pseudo-class  */
 :root {
@@ -27,4 +27,13 @@ h1 {
 h1:hover {
 	color: lemonchiffon;
 	transition: all .5s var(--easeOutSine);
+}
+
+h2 {
+	color: chocolate;
+	transition: all 2s var(--ease-in-sine);
+}
+h2:hover {
+	color: lemonchiffon;
+	transition: all 2s var(--ease-out-sine);
 }
